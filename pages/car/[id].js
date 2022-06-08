@@ -5,7 +5,7 @@ import Head from "next/head";
 import { FooterHome } from "../../components/FooterHome";
 import { HeaderHome } from "../../components/HeaderHome";
 import { Hero } from "../../components/Hero";
-import SearchbarDisabled from "../../components/SearchBarDisabled";
+import SearchbarDisabled from "../../components/SearchbarDisabled";
 import Image from "next/image";
 import Link from "next/link";
 import CardIconUsers from "../../public/img/card-icon-users.png";

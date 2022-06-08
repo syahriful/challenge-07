@@ -1,4 +1,4 @@
-import { Container, Paper, createStyles, Button, Select, Grid } from "@mantine/core";
+import { Container, Paper, createStyles, Select, Grid } from "@mantine/core";
 import React from "react";
 import Image from "next/image";
 
@@ -9,7 +9,7 @@ import IconSearchBarCalendar from "../public/img/icon-searchbar-calendar.png";
 import IconSearchBarClock from "../public/img/icon-searchbar-clock.png";
 import IconSearchBarUsers from "../public/img/icon-searchbar-users.png";
 
-const useStyles = createStyles((theme) => ({
+const useStyles = createStyles(() => ({
   container: {
     position: "relative",
     top: -60,
